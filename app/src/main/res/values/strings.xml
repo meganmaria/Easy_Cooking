@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Easy Cooking</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="logout">Logout</string>
+    <string name="removeProduct">RemoveProduct</string>
+    <string name="editProduct">EditProduct</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

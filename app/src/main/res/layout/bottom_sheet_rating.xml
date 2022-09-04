@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:orientation="horizontal"
+
+        android:elevation="1dp"
+        android:background="@color/white"
+        >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Rate Recipe"
+        android:textSize="20sp"
+        android:paddingLeft="30dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_close"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+   <RatingBar
+       android:id="@+id/ratingBar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="20dp"
+       android:paddingBottom="40dp"
+       android:theme="@style/RatingBar"
+       />
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/purple_700"
+    android:elevation="1dp"
+    android:layout_height="70dp">
+ <TextView
+     android:id="@+id/toolBarTitle"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Easy Cooking"
+     android:textSize="20sp"
+     android:maxLines="1"
+     android:ellipsize="end"
+     android:textColor="@color/white"
+     android:layout_marginLeft="10dp"
+     android:layout_centerVertical="true"
+
+     />
+ <TextView
+     android:id="@+id/addRecipe"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@color/white"
+     android:drawableLeft="@drawable/icon_add"
+     android:layout_toLeftOf="@+id/filter"
+     android:layout_marginRight="6dp"
+     android:text="Add Recipe"
+     android:gravity="center_vertical"
+     android:drawablePadding="4dp"
+
+     android:textSize="12sp"
+
+     android:layout_centerVertical="true"
+     />
+ <ImageView
+     android:id="@+id/filter"
+     android:layout_width="wrap_content"
+     android:src="@drawable/icon_filter"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="10dp"
+
+     android:layout_marginRight="10dp"
+     android:layout_centerVertical="true"
+     android:layout_alignParentEnd="true"
+     />
+
+
+
+
+</RelativeLayout>

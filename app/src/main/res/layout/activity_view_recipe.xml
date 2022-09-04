@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".ui.main.activities.ViewRecipe">
+    <include android:id="@+id/toolBar"
+        layout="@layout/toolbar"/>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+
+           <TextView
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:lineHeight="25dp"
+               android:elevation="1dp"
+              android:background="@color/white"
+               android:textColor="@color/black"
+               android:textSize="25sp"
+               android:text="Ingridients "
+               />
+
+           <EditText
+               android:id="@+id/ingridients"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:lineHeight="25dp"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="18sp"
+               android:enabled="false"
+               android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+               />
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:background="@color/white"
+               />
+
+           <TextView
+               android:id="@+id/desc"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:lineHeight="25dp"
+               android:elevation="1dp"
+               android:background="@color/white"
+               android:textColor="@color/black"
+               android:textSize="25sp"
+               android:text="Description"
+
+               />
+
+           <EditText
+               android:id="@+id/description"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:lineHeight="25dp"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="18sp"
+               android:enabled="false"
+               android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal">
+               <Button
+                   android:id="@+id/rate"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="Rate Recipe"
+                   android:layout_weight="1"
+                   android:textAllCaps="false"
+                   android:layout_margin="10dp"
+                   />
+
+               <Button
+                   android:id="@+id/save"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="Update"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:layout_margin="10dp"
+                   android:layout_weight="1"
+                   />
+
+               <Button
+                   android:id="@+id/share"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="Share recipe"
+                   android:layout_weight="1"
+                   android:textAllCaps="false"
+                   android:layout_margin="10dp"
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
